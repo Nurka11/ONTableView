@@ -41,12 +41,12 @@
 		607FACE51AFB9204008FA782 /* ONTableView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ONTableView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9D7FD4692DF0213D0056900D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A6C740B0707019BC6C9F4017 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9D7FD4692DF0213D0056900D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A6C740B0707019BC6C9F4017 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C38BA899E283AD2A99925741 /* Pods-ONTableView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONTableView_Tests.release.xcconfig"; path = "Target Support Files/Pods-ONTableView_Tests/Pods-ONTableView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DDDAACB58434CF691570D091 /* Pods-ONTableView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONTableView_Example.release.xcconfig"; path = "Target Support Files/Pods-ONTableView_Example/Pods-ONTableView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F1341FCE87C930BEEB62274D /* Pods-ONTableView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ONTableView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ONTableView_Tests/Pods-ONTableView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FF22D08D2AE1417492FF40DB /* ONTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ONTableView.podspec; path = ../ONTableView.podspec; sourceTree = "<group>"; };
+		FF22D08D2AE1417492FF40DB /* ONTableView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ONTableView.podspec; path = ../ONTableView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				F1341FCE87C930BEEB62274D /* Pods-ONTableView_Tests.debug.xcconfig */,
 				C38BA899E283AD2A99925741 /* Pods-ONTableView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

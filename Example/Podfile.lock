@@ -1,0 +1,16 @@
+PODS:
+  - ONTableView (0.1.0)
+
+DEPENDENCIES:
+  - ONTableView (from `../`)
+
+EXTERNAL SOURCES:
+  ONTableView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ONTableView: bd734682f74c77fd78e397d8779ce542c0418f83
+
+PODFILE CHECKSUM: 640c2f5718a216c3e168d572ef88829a9fe2cd6f
+
+COCOAPODS: 1.8.4
