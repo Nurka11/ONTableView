@@ -5,6 +5,42 @@
 [![License](https://img.shields.io/cocoapods/l/ONTableView.svg?style=flat)](https://cocoapods.org/pods/ONTableView)
 [![Platform](https://img.shields.io/cocoapods/p/ONTableView.svg?style=flat)](https://cocoapods.org/pods/ONTableView)
 
+## Usage
+
+```
+import ONTableView
+
+let tableView = ONTableView()
+
+/// set refresh and load more delegates if you need
+tableView.refreshManagerDelegate = self
+
+tableView.loadMoreManagerDelegate = self
+/// For load more manager you should implement UITableViewDelegate method // MUST
+extension ViewController: UITableViewDelegate {
+   
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        if let tableView = scrollView as? ONTableView {
+            tableView.loadMoreControl?.didScroll(scrollView: scrollView)
+        }
+    }
+    
+}
+
+extension ViewController: LoadMoreRefreshManagerDelegate, RefreshManagerDelegate {
+    
+    func loadMore() {
+        // load more
+    }
+    
+    func refresh() {
+        // refresh
+    }
+    
+}
+
+```
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
