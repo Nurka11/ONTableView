@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ONTableView_Example' do
+  pod 'ONTableView', :path => '../'
+
+  target 'ONTableView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
