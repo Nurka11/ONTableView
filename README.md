@@ -20,9 +20,7 @@ tableView.loadMoreManagerDelegate = self
 extension ViewController: UITableViewDelegate {
    
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        if let tableView = scrollView as? ONTableView {
-            tableView.loadMoreControl?.didScroll(scrollView: scrollView)
-        }
+        tableView.loadMoreControl?.didScroll(scrollView: scrollView)
     }
     
 }
