@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/ONTableView.svg?style=flat)](https://cocoapods.org/pods/ONTableView)
 [![Platform](https://img.shields.io/cocoapods/p/ONTableView.svg?style=flat)](https://cocoapods.org/pods/ONTableView)
 
+![](ONTableView/Assets/example.gif)
+
 ## Usage
 
 ```
